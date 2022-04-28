@@ -47,6 +47,7 @@ background-color: #1dc7ed;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
+    outline: solid 2px black;
 
 }
 .imagens2{
@@ -55,11 +56,20 @@ background-color: #1dc7ed;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 300px;
+    outline: solid 2px black;
+    
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    
 }
 .container_login{
     display: flex;
     justify-content: center;
+    font-family: fantasy;
 
 }
 .card{
@@ -72,10 +82,12 @@ background-color: #1dc7ed;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 
 }
 .card h2{
     margin: 0;
+    word-spacing: 2px;
 }
 form{
     margin-top: 24px;
@@ -125,18 +137,18 @@ form button{
     
 }
 #missao {
-    width: 170px;
-    height: 170px;
+    width: 100px;
+    height: 100px;
     
 }
 #visao{
-    width: 170px;
-    height: 170px;
+    width: 100px;
+    height: 100px;
     
 }
 #valores{
-    width: 170px;
-    height: 170px;
+    width: 100px;
+    height: 100px;
     
 }
 .rodape h1{
@@ -156,7 +168,7 @@ form button{
 }
 .rodape .visao{
     display: flex;
-   
+    color: brown;
     align-items: center;
     flex-direction: column;
     margin-right: 15px;
@@ -164,6 +176,7 @@ form button{
 }
 .rodape .valores{
     display: flex;
+    color: rgb(104, 175, 33);
     
     align-items: center;
     flex-direction: column;
@@ -177,4 +190,17 @@ form button{
 #div_quemsomos{
     display: flex;
     justify-content: center;
+}
+
+.card_cadastro{
+    margin-top: 10vh;
+    background-color: azure;
+    width: 400px;
+    height: 600px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
 }
