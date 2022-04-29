@@ -2,7 +2,7 @@
 body{
 margin:0;
 padding: 0;
-background-color: #1dc7ed;
+background-color: #ffffff;
 
 }
 .header{
@@ -10,14 +10,20 @@ background-color: #1dc7ed;
     height: 10vh;
     background-color: rgb(42, 24, 163);
     border-bottom: solid 2px rgb(3, 8, 15);
-    font-family: monospace;
     
-    color: aqua;
+    
+    color: rgb(0, 0, 0);
 }
 .header .container{
+    position: relative;
     display:flex;
     justify-content: space-between;
     
+}
+.header .container h1{
+    font-family: Anton;
+    color: #ffffff;
+    text-shadow: 8px 5px 10px black;
 }
 .navbar{
     display: flex;
@@ -31,7 +37,7 @@ background-color: #1dc7ed;
 .navbar a{
     text-decoration: none;
     font-size: x-large;
-    color: pink;
+    color: rgb(0, 0, 0);
     
 }
 .navbar .agora{
@@ -47,7 +53,7 @@ background-color: #1dc7ed;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-    outline: solid 2px black;
+    
 
 }
 .imagens2{
@@ -56,7 +62,7 @@ background-color: #1dc7ed;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-    outline: solid 2px black;
+    
     
 }
 .h1{
@@ -64,7 +70,7 @@ background-color: #1dc7ed;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 150px;
-    
+    display: flex; justify-content: center; font-family: Anton; box-shadow: 2px 2px 8px black;
 }
 .container_login{
     display: flex;
@@ -83,11 +89,12 @@ background-color: #1dc7ed;
     align-items: center;
     justify-content: center;
     margin-bottom: 100px;
+    outline: solid 5px black;
 
 }
 .card h2{
     margin: 0;
-    word-spacing: 2px;
+    
 }
 form{
     margin-top: 24px;
@@ -203,4 +210,13 @@ form button{
     align-items: center;
     justify-content: center;
     margin-bottom: 100px;
+    outline: solid 2px black;
+}
+.imagens img{
+    box-shadow: 8px 8px 8px black;
+
+}
+.imagens2 img{
+    box-shadow: 8px 8px 8px black;
+
 }
