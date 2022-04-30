@@ -7,30 +7,35 @@ background-color: #ffffff;
 }
 .header{
     width: 100%;
-    height: 10vh;
+    height: 100px;
     background-color: rgb(42, 24, 163);
     border-bottom: solid 2px rgb(3, 8, 15);
-    
+    display: grid;
     
     color: rgb(0, 0, 0);
 }
 .header .container{
-    position: relative;
-    display:flex;
+    
     justify-content: space-between;
     
+    
 }
-.header .container h1{
+.header h1{
     font-family: Anton;
     color: #ffffff;
     text-shadow: 8px 5px 10px black;
+    top: 0px;
+    
+    
+    
 }
 .navbar{
     display: flex;
     list-style: none;
     width: 400px;
     justify-content: space-between;
-    align-items: center;
+    position: relative;
+    
     
     
 }
@@ -38,6 +43,9 @@ background-color: #ffffff;
     text-decoration: none;
     font-size: x-large;
     color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    
     
 }
 .navbar .agora{
@@ -46,6 +54,8 @@ background-color: #ffffff;
 .container{
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 .imagens{
     padding-top: 40px;
@@ -56,15 +66,118 @@ background-color: #ffffff;
     
 
 }
+figure.onepunchman_img{
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+    box-sizing: border-box;
+
+}
+figure.onepunchman_img:hover figcaption{
+    opacity: 1;
+    
+    
+}
+
+figure.onepunchman_img figcaption{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 1s;
+    
+}
+figure.demonslayer_img{
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+    box-sizing: border-box;
+
+}
+figure.demonslayer_img img{
+    
+}
+
+figure.demonslayer_img figcaption{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 1s;
+    
+}
+figure.demonslayer_img:hover figcaption{
+    opacity: 1;
+    
+    
+}
+
+
 .imagens2{
     padding-top: 80px;
     width: 60%;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
+}
+figure.kenjanomago_img{
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+    box-sizing: border-box;
+
+}
+figure.kenjanomago_img img{
+    
+}
+
+figure.kenjanomago_img figcaption{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 1s;
+    
+}
+figure.kenjanomago_img:hover figcaption{
+    opacity: 1;
     
     
 }
+figure.blackclover_img{
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+    box-sizing: border-box;
+    transition: all .5s ease-in-out;
+}
+figure.blackclover_img:hover img{
+    transform: scale(1.25);
+}
+
+figure.blackclover_img figcaption{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 1s;
+    
+}
+figure.blackclover_img:hover figcaption{
+    opacity: 1;
+    
+    
+    
+}
+
 .h1{
     display: flex;
     justify-content: center;
@@ -78,16 +191,16 @@ background-color: #ffffff;
     font-family: fantasy;
 
 }
-.card{
+.card_login{
     margin-top: 10vh;
     background-color: azure;
     width: 400px;
     height: 350px;
     border-radius: 40px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin-bottom: 100px;
     outline: solid 5px black;
 
@@ -212,11 +325,19 @@ form button{
     margin-bottom: 100px;
     outline: solid 2px black;
 }
-.imagens img{
-    box-shadow: 8px 8px 8px black;
 
-}
-.imagens2 img{
-    box-shadow: 8px 8px 8px black;
+/* FOOTER */
 
-}
+.footer {
+    background-color: #32b9cd;
+    height: 150px;
+    color: #fff;
+    display: flex;
+    font-size: 15px;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
