@@ -73,6 +73,9 @@ figure.onepunchman_img{
     box-sizing: border-box;
 
 }
+figure.onepunchman_img:hover img{
+    transform: scale(1.25);
+}
 figure.onepunchman_img:hover figcaption{
     opacity: 1;
     
@@ -96,8 +99,8 @@ figure.demonslayer_img{
     box-sizing: border-box;
 
 }
-figure.demonslayer_img img{
-    
+figure.demonslayer_img:hover img{
+    transform: scale(1.25);
 }
 
 figure.demonslayer_img figcaption{
@@ -131,8 +134,8 @@ figure.kenjanomago_img{
     box-sizing: border-box;
 
 }
-figure.kenjanomago_img img{
-    
+figure.kenjanomago_img:hover img{
+    transform: scale(1.25);
 }
 
 figure.kenjanomago_img figcaption{
