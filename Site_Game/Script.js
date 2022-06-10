@@ -14,8 +14,23 @@ function click_cadastro(){
         alert ("As senhas não coincidem");
     }
     else{
-        alert ("Conta cadastrada com sucesso!")
+        alert ("Conta cadastrada com sucesso!");
     }
 
 }
 
+function click_login(){
+    var emailLogin = input_email_login.value;
+    var senhaLogin = input_senha_login.value;
+
+    if (emailLogin == "" || senhaLogin == ""){
+
+        alert ("Preencha todos os campos");
+
+    }
+    else{
+        login = true
+    }
+
+        
+}

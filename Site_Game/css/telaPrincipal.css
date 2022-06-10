@@ -24,6 +24,7 @@ background-color: #ffffff;
     font-family: Anton;
     color: #ffffff;
     text-shadow: 8px 5px 10px black;
+    
     top: 0px;
     
     
@@ -42,7 +43,7 @@ background-color: #ffffff;
 .navbar a{
     text-decoration: none;
     font-size: x-large;
-    color: rgb(0, 0, 0);
+    color: rgb(138, 116, 116);
     display: flex;
     justify-content: flex-end;
     
